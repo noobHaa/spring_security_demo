@@ -13,6 +13,7 @@
         <form-login login-page="/login.html" default-target-url="/index.html"
                     authentication-failure-url="/login_error.html"/>
         <csrf disabled="true"></csrf>
+        <logout/>
     </http>
 
     <!--配置认证管理器-->
